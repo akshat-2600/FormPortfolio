@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill the Form</title>
+    <link rel="stylesheet" href="static/style1.css">
+</head>
+<body>
+    <header>
+        <h1><u><b>Fill the Form</b></u></h1>
+    </header>
+    <form action="/portfolio.html" method="POST">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last name</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+
+        <p>Choose your favourite Web Language</p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

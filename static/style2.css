@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+}
+
+
+header h2 {
+    color: red;
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(8, 8, 95);
+    text-align: center;
+}
+
+p,h3 {
+    text-align: center;
+    color: rgb(8, 8, 95);
+}
