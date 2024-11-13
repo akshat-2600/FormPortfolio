@@ -1,1 +1,3 @@
-gunnicorn
+gunicorn
+Flask
+requests
